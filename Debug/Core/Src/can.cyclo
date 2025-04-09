@@ -1,0 +1,6 @@
+../Core/Src/can.c:22:6:can_gpio_init	1
+../Core/Src/can.c:30:6:CAN_Init	4
+../Core/Src/can.c:56:6:CAN_Send	7
+../Core/Src/can.c:99:6:ECU_SPOOFER_PROCESS	3
+../Core/Src/can.c:110:6:send	2
+../Core/Src/can.c:115:6:CAN_TransmitMessage	2

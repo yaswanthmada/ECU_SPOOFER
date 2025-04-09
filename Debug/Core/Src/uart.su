@@ -1,0 +1,6 @@
+../Core/Src/uart.c:11:6:uart1_init	4	static
+../Core/Src/uart.c:24:9:uart_rx	4	static
+../Core/Src/uart.c:29:6:uart_tx	16	static
+../Core/Src/uart.c:34:6:uart_string	16	static
+../Core/Src/uart.c:41:6:uart_int	40	static
+../Core/Src/uart.c:61:6:uart_float	40	static
