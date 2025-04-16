@@ -12,9 +12,9 @@ void can_gpio_init();
 void CAN_Init();
 int can_tx_message(CAN_TxMessage_t *);
 void CAN_TransmitMessage();
-void CAN_Send(const uint32_t id,const uint8_t,const uint8_t *data);
+uint8_t CAN_Send(const uint32_t id,const uint8_t,const uint8_t *data);
 void send();
 void ECU_SPOOFER_PROCESS();
-
+//void delay_us(uint32_t us);
 
 #endif /* INC_CAN_H_ */

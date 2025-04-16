@@ -14,7 +14,7 @@ void uart_init();
 void uart_tx(uint8_t c);
 uint8_t uart_rx();
 void uart_string(char *);
-void uart_int(int);
+void uart_int(uint32_t);
 void uart1_init(void);
 void uart_float(float );
 #endif /* INC_UART_H_ */

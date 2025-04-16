@@ -18,7 +18,8 @@ void uart1_init(void)
     GPIOA->CRH |= 3<<4;
     GPIOA->CRH &= ~(3<<8);
     GPIOA->CRH |= 1<<10;
-    USART1->BRR = 0x341;
+   // USART1->BRR = 0x341;
+    USART1->BRR=7550;
     USART1->CR1 |= 1<<13|1<<2|1<<3;
 }
 uint8_t uart_rx()
@@ -38,7 +39,7 @@ void uart_string(char *ptr)
 	uart_tx(*ptr++);
 	}
 }
-void uart_int(int number)
+void uart_int(uint32_t number)
 {
   uint8_t ar[10];
   int i=0;
